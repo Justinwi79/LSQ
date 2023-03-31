@@ -1,0 +1,20 @@
+Sample Output: 
+
+Gaitros:>in2post
+Enter in an expression
+5 + 3 + 2 * ( 6 / 1 ) 
+The InFix   Notation is: 5 + 3 + 2 * ( 6 / 1 ) 
+The PostFix Notation is: 5 3 + 2 6 1 / * + 
+ Results are: 20
+2 + 3 * ( 6 - 3 ) 
+The InFix   Notation is: 2 + 3 * ( 6 - 3 ) 
+The PostFix Notation is: 2 3 6 3 - * + 
+ Results are: 11
+2 + 3 ( 6 - 3 ) 
+The InFix   Notation is: 2 + 3 ( 6 - 3 ) 
+The PostFix Notation is: 2 3 6 3 - + 
+ Results are: Error - Too few operands
+( 5 + 3 ) * 12 - 7 
+The InFix   Notation is: ( 5 + 3 ) * 12 - 7 
+The PostFix Notation is: 5 3 + 12 * 7 - 
+ Results are: 89
